@@ -41,10 +41,6 @@ public class CustomAnimationController : MonoBehaviour
         m_Graph.Play();
     }
 
-    void Update()
-    {
-    }
-
     private void OnDestroy()
     {
         m_Graph.Destroy();
